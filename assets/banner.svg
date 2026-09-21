@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="OmniGrab">
+  <defs>
+    <radialGradient id="glow" cx="1060" cy="40" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#34D399" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1280" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="#0B0C0E"/>
+    <rect width="1280" height="360" fill="url(#glow)"/>
+
+    <!-- Download motif -->
+    <g fill="#34D399">
+      <!-- arrow: stem + chevron as one stroked shape so overlaps stay even -->
+      <g opacity="0.32" fill="none" stroke="#34D399" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="1020" y1="72" x2="1020" y2="214"/>
+        <polyline points="962,160 1020,218 1078,160"/>
+      </g>
+      <!-- tray -->
+      <rect x="900" y="272" width="240" height="14" rx="7" opacity="0.22"/>
+      <rect x="900" y="232" width="14" height="54" rx="7" opacity="0.22"/>
+      <rect x="1126" y="232" width="14" height="54" rx="7" opacity="0.22"/>
+      <!-- progress lines -->
+      <rect x="900" y="310" width="240" height="4" rx="2" opacity="0.10"/>
+      <rect x="900" y="310" width="150" height="4" rx="2" opacity="0.45"/>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="80" y="176" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="600" letter-spacing="-3" fill="#EEF0F1">OmniGrab</text>
+    <text x="82" y="228" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="400" fill="#9AA4AD">Ad-free downloads, resolved on your own machine.</text>
+
+    <!-- Label -->
+    <rect x="82" y="271" width="18" height="4" rx="2" fill="#34D399"/>
+    <text x="112" y="279" font-family="'SF Mono', Menlo, monospace" font-size="16" letter-spacing="3" fill="#64727C">CHROME EXTENSION · LOCAL ENGINE · MIT</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="24" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+</svg>
