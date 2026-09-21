@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="googleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4285F4"/>
+      <stop offset="60%" stop-color="#1A73E8"/>
+      <stop offset="100%" stop-color="#0B57D0"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0B57D0" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background Squircle -->
+  <rect x="10" y="8" width="108" height="108" rx="28" fill="url(#googleGrad)" filter="url(#dropShadow)"/>
+  
+  <!-- White Arrow Stem -->
+  <rect x="58" y="28" width="12" height="34" rx="6" fill="#FFFFFF"/>
+  
+  <!-- Arrow Head Chevron -->
+  <path d="M 64 78 L 86 56 L 78 56 L 64 68 L 50 56 L 42 56 Z" fill="#FFFFFF"/>
+  
+  <!-- Tray / Media Base -->
+  <rect x="36" y="86" width="56" height="8" rx="4" fill="#FFFFFF"/>
+  
+  <!-- Google 4-Color Accent Dots -->
+  <circle cx="49" cy="102" r="3" fill="#4285F4"/>
+  <circle cx="59" cy="102" r="3" fill="#EA4335"/>
+  <circle cx="69" cy="102" r="3" fill="#FBBC05"/>
+  <circle cx="79" cy="102" r="3" fill="#34A853"/>
+</svg>

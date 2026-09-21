@@ -1,0 +1,25 @@
+
+# --- öffentliche Fassung: niemals einchecken ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.sqlite
+*.sqlite3
+*.db
+*.log
+.DS_Store
+.claude/
+.cache/
+node_modules/
+dist/
+build/
+out/
+.venv/
+__pycache__/
+*.pyc
+coverage/
+test-output/
